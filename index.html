@@ -2,38 +2,116 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Side Navigation Bar</title>
-	<link rel="stylesheet" href="styles.css">
+	<title>apoliticalForum</title>
+	<link rel="stylesheet" href="css/styles.css">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
 </head>
 <body>
 
 <div class="wrapper">
-    <div class="sidebar">
-        <h2>Sidebar</h2>
+    <div class="sidebar gradient">
+        <h2 style="font-size:20px;">apoliticalforum</h2>
         <ul>
             <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
-            <li><a href="#"><i class="fas fa-user"></i>Profile</a></li>
-            <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
-            <li><a href="#"><i class="fas fa-project-diagram"></i>portfolio</a></li>
-            <li><a href="#"><i class="fas fa-blog"></i>Blogs</a></li>
-            <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
-            <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
+            <li><a href="#"><i class="fas fa-user"></i>Blogs</a></li>
+            <li><a href="#"><i class="fas fa-address-card"></i>Research</a></li>
+            <li><a href="#"><i class="fas fa-project-diagram"></i>Articles</a></li>
         </ul> 
-        <div class="social_media">
+      <div class="social_media">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/apolitcalforum/"><i class="fab fa-instagram"></i></a>
+      </div> 
+    </div><!--Left side bar-->
+    
+    <div class="container"><!--Container with middle and right side bar-->
+      <div class="main-header">
+        <div class="search">
+          <svg class="search-icon" viewBox="0 0 24 24">
+          <path fill="none" d="M0 0h24v24H0V0z"></path>
+          <path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49 0 .41-.41.41-1.08 0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+          </svg>
+          <input type="text" class="main_search" placeholder="Search">
+        </div><!--
+        <div class="login">
+          <ul>
+            <li class="desktopbutton">
+                <a class="nav-link Button--link Button" type="button" href="index.html" style="color:grey;">Login </a>
+            </li>
+          </ul>
+        </div>-->
+      </div><!--Upper heading that contains search option and profile-->
+      <div class="center">
+        <h1 style="font-size:30px;text-align:center;font-color:grey;"> The lounge</h1>
+        <article class="content px-3 py-5 p-md-5">
+        <div class='containlounge'>
+          <div class="row row-cols-1 mt-4 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title" style="color:MediumSeaGreen;">Politics</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title" style="color:MediumSeaGreen;">Technology</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title" style="color:MediumSeaGreen;">Farming</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title" style="color:MediumSeaGreen;">Fashion</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" style="color:MediumSeaGreen;">Astrology</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+            </div>
+          </div>
+          <div class="col mb-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title" style="color:MediumSeaGreen;">Dialectical Forum</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+				</div>
+          </div>
+        </div>
+	      </article>
+
+        <div class="right-sidebar">
+	        <div class="hn-widget">
+	          <div class="widget-header">
+	            <h3>
+              <a href="" target="_blank" rel="noopener" class="d-flex flex-row align-items-center">
+	            <span>Latest Post</span></a></h3>
+	          </div>
+	        </div>
+	      </div>
+
+
       </div>
-    </div>
-    <div class="main_content">
-        <div class="header">Welcome!! Have a nice day.</div>  
-        <div class="info">
-          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-          <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-      </div>
-    </div>
+      
+    </div><!--Container with middle and right side bar-->
 </div>
 
 </body>
